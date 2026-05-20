@@ -19,7 +19,7 @@ jobs:
           pip install flet flet-geolocator geopy pyttsx3
       - name: Build APK
         run: |
-          flet build apk --module-name Junina_Theo
+          flet build apk
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
